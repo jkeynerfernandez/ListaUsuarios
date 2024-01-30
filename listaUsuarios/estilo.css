@@ -1,0 +1,102 @@
+
+
+.formulario {
+max-width: 600px;
+margin: 20px auto;
+background-color: #fff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+display: grid;
+gap: 10px;
+}
+
+label {
+font-weight: bold;
+}
+
+input {
+width: 100%;
+padding: 8px;
+box-sizing: border-box;
+margin-top: 5px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+button.submit {
+background-color: #4caf50;
+color: #fff;
+padding: 10px 15px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+button.submitCrear{
+    background-color: #4caf50;
+color: #fff;
+padding: 10px 15px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+table {
+max-width: 80%;
+max-height: 70%;
+margin: 20px auto;
+border-collapse: collapse;
+background-color: #fff;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+padding: 12px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
+
+th.titulo {
+background-color: #4caf50;
+color: #fff;
+}
+
+tbody tr:hover {
+background-color: #f5f5f5;
+}
+
+.cuerpoDeLaTabla {
+max-height: 300px;
+overflow-y: auto;
+}
+
+.borrar, .actualizar, .crear {
+padding: 8px;
+margin-right: 5px;
+cursor: pointer;
+}
+
+.p-4 {
+padding: 16px;
+}
+
+.tablaDeUsuarios {
+margin-top: 20px;
+}
+
+.tablaDeUsuarios thead, .tablaDeUsuarios tbody {
+display: block;
+}
+
+.tablaDeUsuarios tbody {
+overflow-y: auto;
+max-height: 300px;
+}
+
+.encabezado {
+background-color: #4caf50;
+color: #fff;
+}
